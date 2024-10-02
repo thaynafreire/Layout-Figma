@@ -15,3 +15,31 @@ body{
     display: flex;
     background: linear-gradient(90deg, #252525, #494949)
 }
+h1{
+    color: #1b1b1b;
+    font-size: 128px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 188px;
+    filter: blur(2px);
+}
+h2{
+    color: #2e2e2e;
+    font-size: 128px;
+    font-weight: bold;
+    margin-left: -5px;
+    margin-top: 400px;
+    filter: blur(2px);
+}
+header{
+    height: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.marca{
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #C0BFBE;
+}
