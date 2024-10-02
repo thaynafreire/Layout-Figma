@@ -86,5 +86,19 @@ h2{
     margin-bottom: -1px;
     filter: blur(2px);
 }
+.degrade {
+    position: absolute;  /* Permite posicionar a imagem em um local específico */
+    bottom: 0;           /* Coloca a imagem na parte inferior */
+    left: 0;             /* Coloca a imagem na parte esquerda */
+    width: auto;         /* Mantém a largura original da imagem */
+    height: auto;        /* Mantém a altura original da imagem */
+    margin: 0;          /* Remove margens */
+    z-index: -1;        /* Coloca a imagem atrás de outros elementos, se necessário */
+}
+
+
+
+
+
 
 
