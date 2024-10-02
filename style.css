@@ -67,20 +67,24 @@ header{
     display: flex;
     gap: 48px;
 }
-/*balenciagah1,h2{
+h1,h2{
     font-size: 128px;
     font-weight: bold;
     margin: 0;
 }
 h1{
+    margin-left: -567px;
     color: #1b1b1b;
-    margin-top: 150px;
+    margin-top: 10px;
+    margin-bottom: 100px;
     filter: blur(2px);
 }
 h2{
+    margin-left: 410px;
     color: #2e2e2e;
-    margin-top: 20px;
+    padding-bottom: -1px;
+    margin-bottom: -1px;
     filter: blur(2px);
-}*/
+}
 
 
