@@ -10,3 +10,8 @@ a {
 ul,ol,li{
     list-style: none;
 }
+body{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(90deg, #252525, #494949)
+}
