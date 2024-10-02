@@ -13,33 +13,74 @@ ul,ol,li{
 body{
     height: 100vh;
     display: flex;
-    background: linear-gradient(90deg, #252525, #494949)
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(100deg, #252525, #494949);
+    font-family: 'Karla', sans-serif;
+}
+header{
+    width: 100%;
+    padding: 20px 40px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo {
+    margin-left: 60px;
+    margin-top: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #C0BFBE;
+}
+.menu ul{
+    margin-left: -1000px;
+    margin-top: 37px;
+    display: flex;
+    gap: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#C0BFBE;
+}
+.menu ul li{
+    display: flex;
+    align-items: center;
+}
+.menu ul li img{
+    margin-top: -10px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+    object-fit: contain;
+}
+.menu ul li img.carrinho{
+    width: 50px;
+    height: auto;
+}
+.menudenavegacaoo{
+    margin-left: -80px;
+    margin-top: -53px;
+    display: flex;
+    gap: 48px;
+}
+/*balenciagah1,h2{
+    font-size: 128px;
+    font-weight: bold;
+    margin: 0;
 }
 h1{
     color: #1b1b1b;
-    font-size: 128px;
-    font-weight: bold;
-    margin-left: 0px;
-    margin-top: 188px;
+    margin-top: 150px;
     filter: blur(2px);
 }
 h2{
     color: #2e2e2e;
-    font-size: 128px;
-    font-weight: bold;
-    margin-left: -5px;
-    margin-top: 400px;
+    margin-top: 20px;
     filter: blur(2px);
-}
-header{
-    height: 200px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.marca{
-    margin-left: auto;
-    font-size: 18px;
-    font-weight: bold;
-    color: #C0BFBE;
-}
+}*/
+
+
