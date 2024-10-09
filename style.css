@@ -91,6 +91,79 @@ display: flex;
 .meio {
     width: 50%;
 }
+h1{
+    margin-top: 60%;
+    margin-left: 52%;
+    font-weight: bold;
+    color: #DBDBDB;
+}
+h2{
+    margin-top: 1%;
+    margin-left: 52%;
+    font-weight: bold;
+    font-size: 19px;
+    color: #909090;
+}
+h3{
+    margin-top: 5%;
+    margin-left: 52%;
+    color: #CF427D;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.opcoes-cor {
+    display: flex;
+    gap: 10px;
+    margin-left: 52%;
+    margin-top: 5px;
+}
+
+.bola-cor1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:#70CAE4 ;
+}
+.bola-cor2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #DBD8D1 ;
+}
+.bola-cor3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+}
+
+.bola-cor-principal {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1.5px solid #DBDBDB; 
+    background: #B12B9D;
+}
+.acao button{
+    margin-left: 52%;
+    margin-top: 20%;
+    height: 61px;
+    width: 179px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #D45F90, #C71585);
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
 
 
 
