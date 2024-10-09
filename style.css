@@ -173,6 +173,25 @@ h3{
     background-size: cover; 
     color: #000;
 }
+.direita .destaque2 {
+    margin-top: 25%;
+    width: 70%; 
+    height: 35%; 
+    background-image: url(img/imagemdestaque2.png);
+    background-size: cover; 
+    color: #000;
+}
+.direita .circulo {
+    position: absolute; 
+    bottom: 2%; 
+    right: 0.5%; 
+    width: 400px; 
+    height: 450px; 
+    background-image: url(img/circulotenis.png);
+    background-size: cover; 
+    color: black;
+}    
+
 
 
 
