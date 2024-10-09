@@ -16,7 +16,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(100deg, #252525, #494949);
     font-family: 'Karla', sans-serif;
 }
 header{
@@ -33,7 +32,7 @@ header{
     margin-left: 60px;
     margin-top: 55px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     color: #C0BFBE;
 }
 .menu ul{
@@ -41,7 +40,7 @@ header{
     margin-top: 37px;
     display: flex;
     gap: 48px;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: bold;
     color:#C0BFBE;
 }
@@ -67,35 +66,10 @@ header{
     display: flex;
     gap: 48px;
 }
-h1,h2{
-    font-size: 128px;
-    font-weight: bold;
-    margin: 0;
-}
-h1{
-    margin-left: -567px;
-    color: #1b1b1b;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    filter: blur(2px);
-}
-h2{
-    margin-left: 410px;
-    color: #2e2e2e;
-    padding-bottom: -1px;
-    margin-bottom: -1px;
-    filter: blur(2px);
-}
-.degrade {
-    position: absolute;  /* Permite posicionar a imagem em um local específico */
-    bottom: 0;           /* Coloca a imagem na parte inferior */
-    left: 0;             /* Coloca a imagem na parte esquerda */
-    width: auto;         /* Mantém a largura original da imagem */
-    height: auto;        /* Mantém a altura original da imagem */
-    margin: 0;          /* Remove margens */
-    z-index: -1;        /* Coloca a imagem atrás de outros elementos, se necessário */
-}
 
+.fundo{
+    height: 100vh;
+}
 
 
 
