@@ -84,8 +84,12 @@ display: flex;
     padding: 10px;
 }
 
-.esquerda, .direita {
+.esquerda {
     width: 55%;
+}
+
+.direita {
+    width: 75%;
 }
 
 .meio {
@@ -160,6 +164,17 @@ h3{
     color: white;
     font-size: 25px;
 }
+.meio .destaque {
+    margin-top: 30%;
+    margin-left: 5px;
+    width: 102%; 
+    height: 70%; 
+    background-image: url(img/imagemdestaque.png);
+    background-size: cover; 
+    color: #000;
+}
+
+
 
 
 
