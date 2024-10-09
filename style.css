@@ -11,7 +11,12 @@ ul,ol,li{
     list-style: none;
 }
 body{
-    height: 100vh;
+    background-image: url(img/background_layoutfigma.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,11 +72,25 @@ header{
     gap: 48px;
 }
 
-.fundo{
-    height: 100vh;
+main {
+display: flex;
+    padding: 20px;
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 90px; 
 }
 
+.coluna {
+    padding: 10px;
+}
 
+.esquerda, .direita {
+    width: 55%;
+}
+
+.meio {
+    width: 50%;
+}
 
 
 
