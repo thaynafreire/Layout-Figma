@@ -193,9 +193,9 @@ h3{
 }    
 
 @media (max-width: 960px) {
-/*    .direita .circulo {
+    .direita .circulo {
         display: none;
-    }*/
+    }
     .direita{
         display: none;
     }
@@ -238,13 +238,50 @@ h3{
         background-size:cover;
         background-position: center;
     }
-    
 }
 
-    /*.direita .destaque2{
-        margin-top: 68%;
-        margin-left: -115%;
-        height: 20vh;
-        width: 35vh;
-    }*/
+@media (max-width: 640px) {
+    .direita .circulo {
+        display: none;
+    }
+    .direita{
+        display: none;
+    }
+    .menu nav{
+        margin-left: 90%;
+    }
+    .logo{
+        font-size: 20px;
+        margin-left: 1%;
+    }
+    .menu ul {
+        display: none;
+    }
+    .meio .destaque {
+        margin-bottom: 220px;
+        margin-left: -290px;
+        height: 55vh;
+        width: 45vh;
+    }
 
+    .esquerda{
+        margin-top: 68%;
+        margin-left: 30%;
+    }
+    h1, h2, h3{
+        margin-left: -45%
+    }
+    .opcoes-cor {
+        margin-left: -45%;
+        gap: 5px;
+    }
+
+    .acao button {
+        margin-left: -45%;
+    }
+
+    body {
+        background-size:cover;
+        background-position: center;
+    }
+}
